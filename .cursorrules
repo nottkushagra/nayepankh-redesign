@@ -1,0 +1,160 @@
+# Premium Interactions & Animation Requirements
+
+This website should feel **alive** and modern. It should not look like a standard NGO template. Every interaction should feel smooth, intentional, and polished while maintaining excellent performance.
+
+## Animation Libraries
+
+Use:
+
+* Framer Motion
+* GSAP (only where it provides clear value)
+* Lenis (or a similar smooth-scrolling library) for buttery scrolling
+* React Intersection Observer for scroll-triggered animations
+
+## Hero Section
+
+* Animated background with soft gradients or subtle particles
+* Staggered text entrance animations
+* Animated call-to-action buttons
+* Floating illustrations or shapes
+* Mouse-parallax effects
+* Scroll indicator animation
+* Smooth page load transition
+
+## Scroll Animations
+
+Animate sections as they enter the viewport:
+
+* Fade
+* Slide
+* Scale
+* Stagger children
+* Rotate slightly where appropriate
+* Blur-to-clear transitions
+
+Every major section should have its own unique entrance animation.
+
+## Cards
+
+Cards should have:
+
+* Lift on hover
+* Soft glow
+* Animated borders
+* Tilt effect (subtle)
+* Shadow transitions
+* Icon animations
+* Ripple effect on click
+
+## Buttons
+
+Buttons should include:
+
+* Ripple effect
+* Hover scaling
+* Gradient transitions
+* Magnetic cursor effect (subtle)
+* Loading animations
+* Animated icons
+
+## Statistics
+
+Impact numbers should:
+
+* Count up when visible
+* Include animated progress indicators
+* Have engaging hover interactions
+
+## Navigation
+
+Create a premium navbar with:
+
+* Glassmorphism
+* Scroll-aware behavior
+* Smooth hide/show on scroll
+* Animated mobile menu
+* Active section highlighting
+* Animated underline
+
+## AI Chat Assistant
+
+The AI assistant should feel premium:
+
+* Floating chat button
+* Pulse animation
+* Expand/collapse transitions
+* Typing indicator
+* Streaming responses
+* Suggested questions
+* Auto-scroll
+* Smooth message animations
+
+## Images
+
+Images should:
+
+* Zoom slightly on hover
+* Reveal with animations
+* Use parallax where appropriate
+* Lazy load gracefully
+
+## Testimonials
+
+* Auto-rotating carousel
+* Swipe support on mobile
+* Smooth transitions
+* Animated quotation marks
+* Hover pause
+
+## Timeline
+
+* Animated progress line
+* Scroll-based reveal
+* Interactive milestones
+
+## Forms
+
+Forms should include:
+
+* Floating labels
+* Real-time validation
+* Success animations
+* Error shake animation
+* Progress indicator (for multi-step forms)
+
+## Micro-Interactions
+
+Include:
+
+* Hover states everywhere
+* Smooth icon transitions
+* Animated section dividers
+* Tooltips
+* Toast notifications
+* Skeleton loading states
+* Page transition animations
+* Smooth anchor scrolling
+* Scroll progress bar
+* "Back to Top" button with animation
+
+## Cursor Effects
+
+On desktop:
+
+* Custom cursor (optional)
+* Interactive cursor scaling over buttons/cards
+* Cursor trails only if performance remains excellent
+
+## Performance
+
+Animations must:
+
+* Run at 60 FPS
+* Respect `prefers-reduced-motion`
+* Never block interaction
+* Be optimized for mobile
+* Avoid excessive JavaScript
+
+## Overall Feel
+
+The final website should feel closer to a premium startup or award-worthy landing page than a typical NGO site. Aim for the level of polish seen on sites like Vercel, Linear, Stripe, Aceternity UI, or modern Framer templates, while keeping the design accessible, fast, and appropriate for a nonprofit organization.
