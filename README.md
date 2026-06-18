@@ -2,6 +2,8 @@
 
 A premium, modern web application redesign for the **NayePankh Foundation** NGO website. Built using Next.js 15, React 19, TypeScript, and TailwindCSS.
 
+🔗 **Live Demo**: [https://nottkushagra.github.io/nayepankh-redesign/](https://nottkushagra.github.io/nayepankh-redesign/)
+
 This website aims to look closer to a premium tech startup or award-winning landing page than a typical NGO template, keeping the design accessible, extremely fast, and appropriate for a nonprofit organization.
 
 ---
