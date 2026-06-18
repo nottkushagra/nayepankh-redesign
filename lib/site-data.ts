@@ -35,15 +35,18 @@ export const site = {
 
 // Official assets downloaded from https://nayepankh.com/ and its public Zyro asset CDN.
 // They are stored locally to avoid hotlinking and to keep this redesign self-contained.
+const isProd = process.env.NODE_ENV === "production";
+const basePath = isProd ? "/nayepankh-redesign" : "";
+
 export const assets = {
-  logo: "/logos/nayepankh-logo.png",
-  hero: "/images/food-drive.jpg",
-  foodDrive: "/images/food-drive.jpg",
-  volunteerDrive: "/images/volunteer-drive.jpg",
-  fieldWork: "/images/field-work.jpg",
-  campaignMoment: "/images/campaign-moment.jpg",
-  recognition: "/images/recognition-banner.jpg",
-  contactTeam: "/images/contact-team.jpg"
+  logo: `${basePath}/logos/nayepankh-logo.png`,
+  hero: `${basePath}/images/food-drive.jpg`,
+  foodDrive: `${basePath}/images/food-drive.jpg`,
+  volunteerDrive: `${basePath}/images/volunteer-drive.jpg`,
+  fieldWork: `${basePath}/images/field-work.jpg`,
+  campaignMoment: `${basePath}/images/campaign-moment.jpg`,
+  recognition: `${basePath}/images/recognition-banner.jpg`,
+  contactTeam: `${basePath}/images/contact-team.jpg`
 };
 
 export const navItems = [
